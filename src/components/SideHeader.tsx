@@ -59,14 +59,14 @@ export default function SideHeader(){
                     </div>
                     <div className="w-full h-[140px] flex flex-col justify-between bg-[#242424] rounded-lg p-5 mb-6">
                         <p className="text-md mb-3 tracking-normal">Create your first playlist</p>
-                        <p className="text-xs mb-4 tracking-wide">It's easy, we'll help you</p>
+                        <p className="text-xs mb-4 tracking-wide">It&apos;s easy&lsquo; we&apos;ll help you</p>
                         <div className="w-fit rounded-2xl bg-white flex justify-center items-center px-4 py-1 mt-2">
                             <p className="text-black font-semibold text-sm">Create playlist</p>
                         </div>
                     </div>
                     <div className="w-full h-[140px] flex flex-col justify-between bg-[#242424] rounded-lg p-5">
-                        <p className="text-md mb-3 tracking-normal">Let's find some podcast to follow</p>
-                        <p className="text-sm mb-4 tracking-normal">We'll keep you updated on new episodes</p>
+                        <p className="text-md mb-3 tracking-normal">Let&apos;s find some podcast to follow</p>
+                        <p className="text-sm mb-4 tracking-normal">We&apos;ll keep you updated on new episodes</p>
                         <div className="w-fit rounded-2xl bg-white flex justify-center items-center px-4 py-1 mt-2">
                             <p className="text-black font-semibold text-sm tracking-normal">Browse podcasts</p>
                         </div>

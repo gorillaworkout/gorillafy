@@ -15,15 +15,12 @@ interface DataObj<T = string,D=Boolean>{
   judul:D
 }
 const CardContainer: FC<Props> = (props) => {
-  const [number,setNumber] = useState<Number>(1)
-  const [obj,setObj] = useState<DataObj>({id:1, nik:"sdf",judul:false})
-    console.log(props.data,'data')
-  const { title } = props;
-  console.log(title,'title ')
+  // const [number,setNumber] = useState<Number>(1)
+  // const [obj,setObj] = useState<DataObj>({id:1, nik:"sdf",judul:false})
+    // console.log(props.data,'data')
+  // const { title } = props;
+  // console.log(title,'title ')
 
-  useEffect(()=>{
-    console.log(title,'title use effect')
-  },[])
   return (
     <>
       <div className="w-full flex flex-col mb-8">
